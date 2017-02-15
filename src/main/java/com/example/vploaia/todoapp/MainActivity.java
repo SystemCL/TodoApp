@@ -154,6 +154,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void editSelectedItem() {
+        //
         lvItems.setOnItemClickListener(
                 new AdapterView.OnItemClickListener() {
                     @Override
