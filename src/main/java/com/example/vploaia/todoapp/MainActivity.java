@@ -184,8 +184,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 /*------------------------------------------------------------------*/
-
-
+    //
         /*lvItems.setOnItemClickListener(
                 new AdapterView.OnItemClickListener() {
                     @Override
