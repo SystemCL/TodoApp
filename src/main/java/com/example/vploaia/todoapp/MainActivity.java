@@ -168,7 +168,8 @@ public class MainActivity extends AppCompatActivity {
 
                         String text = (String) adapter.getItemAtPosition(pos);
                         Intent i = new Intent(getApplicationContext(), EditTaskActivity.class);
-                        i.putExtra("titleTaskText",text);
+                        //i.putExtra("titleTaskText",text);
+                        i.putExtra("titleTaskText", text);
                         startActivity(i);
 
 
